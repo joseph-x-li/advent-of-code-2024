@@ -1,0 +1,5 @@
+(library
+ (name aoc)
+ (libraries async core core_unix.command_unix)
+ (preprocess (pps ppx_jane))
+)

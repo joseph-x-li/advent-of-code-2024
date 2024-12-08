@@ -1,0 +1,1 @@
+let () = Command_unix.run Aoc.command;;
