@@ -36,7 +36,7 @@ module Day_1 = struct
 
   let%expect_test "Day 1" =
     let%bind () = p1 () in
-    [%expect {|   |}]
+    [%expect {|  |}]
   ;;
 end
 
